@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vskportfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Sai Kumar Vaka</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>An postgraduate MCA student exploring the technical world.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/saikumar-vaka-423b78229/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/vakasaikumar"><i class='bx bxl-github'></i></a>
+                <a href="mailto:saikumarvaka3@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.instagram.com/mr____vsk/"><i class='bx bxl-instagram-alt'></i></a>
+
+            </div>
+            <button class="btn btn-color-2" onclick="window.open('file:///C:/Users/HP/OneDrive/Desktop/6m/portfolio/assets/saikumarmca2024.pdf')">
+                Download Resume
+            </button>
+
+        </div>
+        <div class="home-img">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>
+                Hi there! I'm SAI, a creative and results-oriented web developer with a passion for building
+                user-friendly and visually appealing web experiences. I have 1 years of experience in
+                front-end development, specializing in crafting interactive interfaces using HTML, CSS,
+                and JavaScript. I'm also proficient in React.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developer</h3>
+                <p>
+                    I'm a results-oriented web developer with a passion for crafting impactful
+                    web solutions for clients. I specialize in collaborating with clients to
+                    understand their needs and translating them into high-quality websites and
+                    applications. I leverage my expertise in HTML, CSS, JavaScript, to deliver
+                    projects that meet client goals.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Responsive Website</h4>
+                    <p>
+                        <!--I design and develop responsive websites that adapt flawlessly across all 
+                        devices, from desktops to tablets and smartphones. This ensures a smooth
+                         user experience for your visitors no matter how they choose to access you
+                         website-->
+                        Build a responsive website that appears beautifully on a screen of any
+                        size. Develop a food munch website, an E-commerce product listing
+                        website for small business owners using bootstrap fundamental concepts.
+                        Use tools and technologies such as HTML, CSS, and Bootstrap.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Static Website</h4>
+                    <p>
+                        Build a static website that appears beautifully on mobile screens. Develop a Tourism website to
+                        browse through the content, videos, and images of popular destinations, websites to host
+                        conferences and events, etc
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Dynamic Web App</h4>
+                    <p>As a dynamic web application developer, I specialize in creating interactive and engaging web
+                        experiences that dynamically respond to user input and data changes. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="" id="">
+                <input type="email" placeholder="Email Address" name="" id="">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="" id="">
+                <input type="email" placeholder="Email Subject" name="" id="">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyrigh &copy; 2024</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
